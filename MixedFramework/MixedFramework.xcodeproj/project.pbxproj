@@ -11,15 +11,19 @@
 		644394462A954A6E00A6DB47 /* Greeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644394452A954A6E00A6DB47 /* Greeter.swift */; };
 		644394492A954A8C00A6DB47 /* GreetingProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 644394472A954A8C00A6DB47 /* GreetingProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6443944A2A954A8C00A6DB47 /* GreetingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 644394482A954A8C00A6DB47 /* GreetingProvider.m */; };
+		D4AEE1A1D3EDAF3FFB21A9DC /* libPods-MixedFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE26CCB1F7081620E98F220D /* libPods-MixedFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BD76C7DA6A8896B239F8F2D /* Pods-MixedFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedFramework.release.xcconfig"; path = "Target Support Files/Pods-MixedFramework/Pods-MixedFramework.release.xcconfig"; sourceTree = "<group>"; };
 		6443943B2A954A3A00A6DB47 /* MixedFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MixedFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6443943E2A954A3A00A6DB47 /* MixedFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixedFramework.h; sourceTree = "<group>"; };
 		644394452A954A6E00A6DB47 /* Greeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greeter.swift; sourceTree = "<group>"; };
 		644394472A954A8C00A6DB47 /* GreetingProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GreetingProvider.h; sourceTree = "<group>"; };
 		644394482A954A8C00A6DB47 /* GreetingProvider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GreetingProvider.m; sourceTree = "<group>"; };
 		6443944B2A954AE600A6DB47 /* MixedFramework.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = MixedFramework.modulemap; sourceTree = "<group>"; };
+		95424D4B2581B797ADF70F9B /* Pods-MixedFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedFramework.debug.xcconfig"; path = "Target Support Files/Pods-MixedFramework/Pods-MixedFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		BE26CCB1F7081620E98F220D /* libPods-MixedFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixedFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +31,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AEE1A1D3EDAF3FFB21A9DC /* libPods-MixedFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		395B2CA1CE34B08555BBBCC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE26CCB1F7081620E98F220D /* libPods-MixedFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		644394312A954A3A00A6DB47 = {
 			isa = PBXGroup;
 			children = (
 				6443943D2A954A3A00A6DB47 /* MixedFramework */,
 				6443943C2A954A3A00A6DB47 /* Products */,
+				F1D432EA3C62A78AC78FB5EE /* Pods */,
+				395B2CA1CE34B08555BBBCC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +76,16 @@
 			path = MixedFramework;
 			sourceTree = "<group>";
 		};
+		F1D432EA3C62A78AC78FB5EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95424D4B2581B797ADF70F9B /* Pods-MixedFramework.debug.xcconfig */,
+				2BD76C7DA6A8896B239F8F2D /* Pods-MixedFramework.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -80,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644394422A954A3A00A6DB47 /* Build configuration list for PBXNativeTarget "MixedFramework" */;
 			buildPhases = (
+				A10AA669A77BBB27658809EE /* [CP] Check Pods Manifest.lock */,
 				644394362A954A3A00A6DB47 /* Headers */,
 				644394372A954A3A00A6DB47 /* Sources */,
 				644394382A954A3A00A6DB47 /* Frameworks */,
@@ -136,6 +162,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A10AA669A77BBB27658809EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MixedFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		644394372A954A3A00A6DB47 /* Sources */ = {
@@ -272,6 +323,7 @@
 		};
 		644394432A954A3A00A6DB47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95424D4B2581B797ADF70F9B /* Pods-MixedFramework.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
@@ -308,6 +360,7 @@
 		};
 		644394442A954A3A00A6DB47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BD76C7DA6A8896B239F8F2D /* Pods-MixedFramework.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;

@@ -3,12 +3,13 @@
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MixedFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Foundation
+import GoogleMobileAds
 @_exported import MixedFramework
 import Swift
 import _Concurrency
 import _StringProcessing
 public class Greeter {
-  public init(provider: MixedFramework.GreetingProvider = .init())
+  public init(provider: MixedFramework.GreetingProvider = .init(), mobielAds: GoogleMobileAds.GADMobileAds = .sharedInstance())
   public func greet()
   @objc deinit
 }
