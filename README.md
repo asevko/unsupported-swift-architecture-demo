@@ -3,6 +3,8 @@
 This repository demonstrates `unsupported Swift architecture` error, that appears in generated `-Swift.h` file
 for `Intel (x86_64)` architecture.
 
+<img width="627" alt="Screenshot 2023-08-23 at 14 40 57" src="https://github.com/asevko/unsupported-swift-architecture-demo/assets/15818523/72c2af80-3516-4189-ba30-6a64967aaaac">
+
 ## Problem
 
 [Generated swift header](/products/MixedFramework.xcframework/ios-arm64_x86_64-simulator/MixedFramework.framework/Headers/MixedFramework-Swift.h) doesnt contain define for `x86_64` architecture.
