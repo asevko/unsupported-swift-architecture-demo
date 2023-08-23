@@ -1,0 +1,11 @@
+framework module MixedFramework {
+    umbrella header "MixedFramework.h"
+    
+    export *
+    module * { export * }
+}
+
+module MixedFramework.Swift {
+  header "MixedFramework-Swift.h"
+  requires objc
+}

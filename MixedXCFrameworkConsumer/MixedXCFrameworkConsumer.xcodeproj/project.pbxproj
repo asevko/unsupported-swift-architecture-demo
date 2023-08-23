@@ -11,6 +11,7 @@
 		6443945B2A954D4100A6DB47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6443945A2A954D4100A6DB47 /* ContentView.swift */; };
 		6443945D2A954D4200A6DB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443945C2A954D4200A6DB47 /* Assets.xcassets */; };
 		644394602A954D4200A6DB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443945F2A954D4200A6DB47 /* Preview Assets.xcassets */; };
+		6443946E2A961F6100A6DB47 /* MixedFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6443945A2A954D4100A6DB47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6443945C2A954D4200A6DB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6443945F2A954D4200A6DB47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MixedFramework.xcframework; path = ../products/MixedFramework.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6443946E2A961F6100A6DB47 /* MixedFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +40,7 @@
 			children = (
 				644394572A954D4100A6DB47 /* MixedXCFrameworkConsumer */,
 				644394562A954D4100A6DB47 /* Products */,
+				6443946C2A961F6100A6DB47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				6443945F2A954D4200A6DB47 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6443946C2A961F6100A6DB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

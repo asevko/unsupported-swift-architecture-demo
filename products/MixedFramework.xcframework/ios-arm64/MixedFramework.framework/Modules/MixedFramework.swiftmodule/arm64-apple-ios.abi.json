@@ -1,0 +1,80 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MixedFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Greeter",
+        "printedName": "Greeter",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(provider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Greeter",
+                "printedName": "MixedFramework.Greeter",
+                "usr": "s:14MixedFramework7GreeterC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GreetingProvider",
+                "printedName": "MixedFramework.GreetingProvider",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)GreetingProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MixedFramework7GreeterC8providerACSo16GreetingProviderC_tcfc",
+            "mangledName": "$s14MixedFramework7GreeterC8providerACSo16GreetingProviderC_tcfc",
+            "moduleName": "MixedFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "greet",
+            "printedName": "greet()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MixedFramework7GreeterC5greetyyF",
+            "mangledName": "$s14MixedFramework7GreeterC5greetyyF",
+            "moduleName": "MixedFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MixedFramework7GreeterC",
+        "mangledName": "$s14MixedFramework7GreeterC",
+        "moduleName": "MixedFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
