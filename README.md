@@ -1,9 +1,9 @@
-# Unsupported swift architecture error demo project
+# That branch doesn't use pods and doesn't have error
 
 This repository demonstrates `unsupported Swift architecture` error, that appears in generated `-Swift.h` file
 for `Intel (x86_64)` architecture.
 
-<img width="627" alt="Screenshot 2023-08-23 at 14 40 57" src="https://github.com/asevko/unsupported-swift-architecture-demo/assets/15818523/72c2af80-3516-4189-ba30-6a64967aaaac">
+![Error example](https://github.com/asevko/unsupported-swift-architecture-demo/assets/15818523/72c2af80-3516-4189-ba30-6a64967aaaac)
 
 ## Problem
 
@@ -21,7 +21,6 @@ I've tried to resovle error via [TN3117: Resolving architecture build errors on 
 
 To build project you need:
 
-1. Run `pod install`. If `cocoapods` not installed, run `sudo gem install cocoapods` before.
 1. `open MixedFramework.xcworkspace`
 
 If you want to regenerate xcframework:

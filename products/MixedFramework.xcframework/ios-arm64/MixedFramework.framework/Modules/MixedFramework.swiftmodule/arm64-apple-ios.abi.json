@@ -12,13 +12,6 @@
         "moduleName": "MixedFramework"
       },
       {
-        "kind": "Import",
-        "name": "GoogleMobileAds",
-        "printedName": "GoogleMobileAds",
-        "declKind": "Import",
-        "moduleName": "MixedFramework"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Greeter",
         "printedName": "Greeter",
@@ -26,7 +19,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(provider:mobielAds:)",
+            "printedName": "init(provider:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -40,18 +33,11 @@
                 "printedName": "MixedFramework.GreetingProvider",
                 "hasDefaultArg": true,
                 "usr": "c:objc(cs)GreetingProvider"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GADMobileAds",
-                "printedName": "GoogleMobileAds.GADMobileAds",
-                "hasDefaultArg": true,
-                "usr": "c:objc(cs)GADMobileAds"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14MixedFramework7GreeterC8provider9mobielAdsACSo16GreetingProviderC_So09GADMobileF0Ctcfc",
-            "mangledName": "$s14MixedFramework7GreeterC8provider9mobielAdsACSo16GreetingProviderC_So09GADMobileF0Ctcfc",
+            "usr": "s:14MixedFramework7GreeterC8providerACSo16GreetingProviderC_tcfc",
+            "mangledName": "$s14MixedFramework7GreeterC8providerACSo16GreetingProviderC_tcfc",
             "moduleName": "MixedFramework",
             "declAttributes": [
               "AccessControl"

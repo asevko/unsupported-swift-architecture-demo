@@ -11,20 +11,16 @@
 		6443945B2A954D4100A6DB47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6443945A2A954D4100A6DB47 /* ContentView.swift */; };
 		6443945D2A954D4200A6DB47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443945C2A954D4200A6DB47 /* Assets.xcassets */; };
 		644394602A954D4200A6DB47 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6443945F2A954D4200A6DB47 /* Preview Assets.xcassets */; };
-		6443946E2A961F6100A6DB47 /* MixedFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */; };
-		701F060F0370E3F5444CAF68 /* libPods-MixedXCFrameworkConsumer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84292A56BB516C0ECEE5E02A /* libPods-MixedXCFrameworkConsumer.a */; };
+		6443946F2A96351D00A6DB47 /* MixedFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1280D247181D68F4AED03843 /* Pods-MixedXCFrameworkConsumer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedXCFrameworkConsumer.debug.xcconfig"; path = "Target Support Files/Pods-MixedXCFrameworkConsumer/Pods-MixedXCFrameworkConsumer.debug.xcconfig"; sourceTree = "<group>"; };
 		644394552A954D4100A6DB47 /* MixedXCFrameworkConsumer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MixedXCFrameworkConsumer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		644394582A954D4100A6DB47 /* MixedXCFrameworkConsumerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MixedXCFrameworkConsumerApp.swift; sourceTree = "<group>"; };
 		6443945A2A954D4100A6DB47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6443945C2A954D4200A6DB47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6443945F2A954D4200A6DB47 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MixedFramework.xcframework; path = ../products/MixedFramework.xcframework; sourceTree = "<group>"; };
-		6DA119A7850529FC815BBC45 /* Pods-MixedXCFrameworkConsumer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MixedXCFrameworkConsumer.release.xcconfig"; path = "Target Support Files/Pods-MixedXCFrameworkConsumer/Pods-MixedXCFrameworkConsumer.release.xcconfig"; sourceTree = "<group>"; };
-		84292A56BB516C0ECEE5E02A /* libPods-MixedXCFrameworkConsumer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MixedXCFrameworkConsumer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,31 +28,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6443946E2A961F6100A6DB47 /* MixedFramework.xcframework in Frameworks */,
-				701F060F0370E3F5444CAF68 /* libPods-MixedXCFrameworkConsumer.a in Frameworks */,
+				6443946F2A96351D00A6DB47 /* MixedFramework.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44A4F0239AF2238C698CE3EC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1280D247181D68F4AED03843 /* Pods-MixedXCFrameworkConsumer.debug.xcconfig */,
-				6DA119A7850529FC815BBC45 /* Pods-MixedXCFrameworkConsumer.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 		6443944C2A954D4100A6DB47 = {
 			isa = PBXGroup;
 			children = (
 				644394572A954D4100A6DB47 /* MixedXCFrameworkConsumer */,
 				644394562A954D4100A6DB47 /* Products */,
 				6443946C2A961F6100A6DB47 /* Frameworks */,
-				44A4F0239AF2238C698CE3EC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				6443946D2A961F6100A6DB47 /* MixedFramework.xcframework */,
-				84292A56BB516C0ECEE5E02A /* libPods-MixedXCFrameworkConsumer.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -103,7 +86,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 644394632A954D4200A6DB47 /* Build configuration list for PBXNativeTarget "MixedXCFrameworkConsumer" */;
 			buildPhases = (
-				7533D260A6B0671916110110 /* [CP] Check Pods Manifest.lock */,
 				644394512A954D4100A6DB47 /* Sources */,
 				644394522A954D4100A6DB47 /* Frameworks */,
 				644394532A954D4100A6DB47 /* Resources */,
@@ -161,31 +143,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7533D260A6B0671916110110 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MixedXCFrameworkConsumer-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		644394512A954D4100A6DB47 /* Sources */ = {
@@ -316,7 +273,6 @@
 		};
 		644394642A954D4200A6DB47 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1280D247181D68F4AED03843 /* Pods-MixedXCFrameworkConsumer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,7 +305,6 @@
 		};
 		644394652A954D4200A6DB47 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DA119A7850529FC815BBC45 /* Pods-MixedXCFrameworkConsumer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
